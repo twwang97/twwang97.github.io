@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Publication</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="https://twwang97.github.io">
+                <span class="d-block d-lg-none">Tsung-Wun Wang</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+			</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html">Tsung-Wun Wang</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Publication</a></li>
+                </ul>
+            </div>
+        </nav>
+		
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+			
+            <hr class="m-0" />
+            <!-- Publication-->
+            <section class="resume-section" id="publication">
+				
+
+                <div class="resume-section-content">
+					<h2 class="mb-0">Publication</h2>
+					<p> &nbsp </p>
+					<p> &nbsp </p>
+					<p><img src="assets/img/paper_title.png" alt="paper_title.png" style="width:90%; margin-left: 0;" /></p>
+					<p> &nbsp </p>
+					
+					<h5 class="mb-2"> Abstract </h5>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					&nbsp &nbsp In this paper, we present a novel vision-base robotic grasping system to enable a robotic arm with a parallel gripper to recycle reusable objects. This system can not only classify different types of objects, namely, paper, plastic, metal objects, but also predict the position of the selected object. Both camera images and deep learning techniques are key ingredient of the proposed solutions: the Kinect camera is used to capture RGB and depth images, and the Mask R-CNN model performs classification and finds a good segmentation mask, which must be the same as the shape of the selected object ideally. With the help of them, the parallel gripper finally throws the identified objects into their corresponding box successfully. 
+					</h6>
+					<p> &nbsp </p>
+					
+					<h5 class="mb-2"> Problem-Solving Flowchart </h5>
+					<a href="assets/img/automation2019_flowchart.png">
+					<p><img src="assets/img/automation2019_flowchart.png" alt="automation2019_flowchart.png" style="width:70%; padding: 25px; margin-left: auto; margin-right: auto; display: block;" /></p>
+					</a>
+					<h6> &nbsp </h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+						&nbsp &nbsp In fact, the results predicted by the Mask R-CNN model has some incomplete masks with small probabilities. Also, the parallel gripper can grip only one object each time, and it is easier to pick the upper object in the garbage can. In other words, we have to select only one upper object which overlaps the segmentation area predicted from the model. Therefore, to select the best object for each grasping, all of the masks predicted from the Mask R-CNN model should be prioritized. Once the best one is selected, the gripper will grip and recycle it. 
+					</h6>
+					<h6> &nbsp &nbsp </h6>
+					<a href="assets/img/automation2019_ranking.png">
+					<p><img src="assets/img/automation2019_ranking.png" alt="automation2019_ranking.png" style="width:70%; padding: 25px; margin-left: auto; margin-right: auto; display: block;" /></p>
+					</a>
+					<h6> &nbsp &nbsp </h6>
+					
+					<h5 class="mb-2"> Result (1): Simulation </h5>
+					<a href="assets/img/garbage_classification.png">
+					<p><img src="assets/img/garbage_classification.png" alt="garbage_classification.png" style="width:95%; padding: 5px; margin-left: auto; margin-right: auto; display: block;" /></p>
+					</a>
+					<h6 class="text-project-contents">Where</h6>
+					<h6 class="text-project-contents">  
+						the blue points are the places where two plates of the parallel gripper should grip;
+					</h6>
+					<h6 class="text-project-contents">  
+						the red point is the center of the two blue points.
+					</h6>
+					
+					<p> &nbsp &nbsp </p>
+					
+					<h5 class="mb-2"> Result (2): Robotic Grasping </h5>
+					<p><img src="assets/img/hiwin_garbage_overview.png" alt="hiwin_garbage_overview.png" style="width:70%; padding: 25px; margin-left: auto; margin-right: auto; display: block;" /></p>
+					
+					<p> &nbsp </p>
+					
+					<h5 class="mb-0">Best Student Paper Award</h5>
+					<p><img src="assets/img/paper_award.jpg" alt="paper_award.jpg" style="width:70%; padding: 25px; margin-left: auto; margin-right: auto; display: block;" /></p>
+					
+					<p> &nbsp </p>
+					
+					<h5 class="mb-0"> References </h5>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[1] E. Klingbeil, D. Rao, B. Carpenter, V. Ganapathi, A. Y. Ng, and O. Khatib, “Grasping with application to an autonomous checkout robot,” in 2011 IEEE International Conference on Robotics and Automation, May 2011, pp. 2837–2844.
+					</h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[2] H. A. Pierson and M. S. Gashler, “Deep learning in robotics: a review of recent research,” Advanced Robotics, vol. 31, no. 16, pp. 821–835, 2017.
+					</h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[3] S. Kumra and C. Kanan, “Robotic grasp detection using deep convolutional neural networks,” in Proceedings of the IEEE International Conference on Intelligent Robotic and Systems, Dec. 2017, pp. 769-776.
+					</h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[4] J. Yu, K. Weng, G. Liang, and G. Xie, “A visionbased robotic grasping system using deep learning for 3D object recognition and pose estimation,” in Proceedings of the IEEE International Conference Robotic and Biomimetics (ROBIO), Dec. 2013, pp. 1175–1180.
+					</h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[5] C. Zhihong, Z. Hebin, W. Yanbo, L. Binyan, and L. Yu, “A vision-based robotic grasping system using deep learning for garbage sorting,” in 2017 36th Chinese Control Conference (CCC), July 2017, pp. 11223–11226.
+					</h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[6] R. B. Falquete, D. C. Cavalieri, and F. G. Pereira, “An automatic object detection and location system applying Faster R-CNN,” in 2018 13th IEEE International Conference on Industry Applications, Nov. 2018, pp. 902-908.
+					</h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[7] J. Redmon and A. Angelova, ”Real-time grasp detection using convolutional neural networks,” in IEEE International conference on Robotics and Automation, May 2015, pp. 1316–1322.
+					</h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[8] R. Girshick, J. Donahue, T. Darrell, and J. Malik, “Rich feature hierarchies for accurate object detection and semantic segmentation,” in Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition, Washington, DC, USA, Jun. 2014, pp. 580–587
+					</h6>
+					<h6 class="text-project-contents" style="text-justify: distribute; text-align: justify">  
+					[9] K. He, G. Gkioxari, P. Dollár, and R. Girshick, “Mask R-CNN,” in IEEE International Conference on Computer Vision (ICCV), Oct. 2017, pp. 2961- 2969.
+					</h6>
+				
+					
+				
+				
+				<p> &nbsp </p>
+				<p> &nbsp </p>
+				<a href="#page-top"> 
+					<p class="mb-0" style="text-align: right;"> 
+						Top of Page 	<i class="fas fa-arrow-circle-up"></i>
+					</p>
+				</a>
+				
+				<hr class="m-0" />
+				<h6> &nbsp </h6>
+				<!-- Contacts >
+				<!-- <section id="contacts" style="background-color: #bd5d38; margin-left: -50px; margin-right: -50px;"> -->
+				<section>						
+					<p class="mb-0"> Tsung-Wun Wang  </p>
+					<p class="mb-0"> (+886) 975-398-879 &nbsp | &nbsp twwang97@gmail.com </p>
+					<p class="mb-0"> Taipei, Taiwan </p>	
+					<p class="mb-0" style="text-align: right;"> 
+						<a href="https://twwang97.github.io">
+						Home 	<i class="fa fa-home"></i>
+						</a>
+					</p>					
+				</section>
+				
+				</div>
+            </section>
+			
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
