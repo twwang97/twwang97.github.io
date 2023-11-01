@@ -1,1 +1,2 @@
-This github page is forked from https://github.com/academicpages/academicpages.github.io
+#### Note
+David's personal website is forked from https://github.com/academicpages/academicpages.github.io
