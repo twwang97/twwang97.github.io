@@ -1,7 +1,7 @@
 ---
 title: "Control Projects"
 excerpt: "Because our machines should be controlled in a reasonable way to meet our requirements, different control strategies can be applied based on their properties. Selected projects are listed in the table.'>"
-collection: projects
+collection: controls
 ---
 
 | Year | Course  | Project  | Attachment |

@@ -13,8 +13,11 @@ main:
   - title: "Research" # "Portfolio"
     url: /thesis/
 
-  - title: "Projects" # "Portfolio"
+  - title: "Projects"
     url: /projects/
+
+  - title: "Controls"
+    url: /controls/
 
   - title: "Publications"
     url: /publications/
