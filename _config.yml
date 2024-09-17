@@ -184,7 +184,7 @@ collections:
   thesis:
     output: true
     permalink: /:collection/:path/
-  projects:
+  visions:
     output: true
     permalink: /:collection/:path/
   controls:
@@ -242,10 +242,10 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _projects
+  # _visions
   - scope:
       path: ""
-      type: projects
+      type: visions
     values:
       layout: single
       author_profile: true

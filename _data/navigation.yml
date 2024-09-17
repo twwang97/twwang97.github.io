@@ -10,11 +10,11 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Research" # "Portfolio"
+  - title: "Thesis" # "Portfolio"
     url: /thesis/
 
-  - title: "Projects"
-    url: /projects/
+  - title: "Computer Vision"
+    url: /visions/
 
   - title: "Controls"
     url: /controls/

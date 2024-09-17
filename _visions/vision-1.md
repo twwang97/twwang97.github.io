@@ -1,7 +1,7 @@
 ---
 title: "Stereo Reconstruction"
 excerpt: "Point-cloud reconstruction from disparity in the context of stereo cameras refers to the process of creating a 3D representation of a scene using information obtained from two or more images captured by stereo cameras.. <br/><img src='/images/disparity_pcd_motorcycle.png'>"
-collection: projects
+collection: visions
 ---
 The process of point-cloud reconstruction involves the following steps: <br>
 (1) <b>Stereo Calibration</b>: <br>
