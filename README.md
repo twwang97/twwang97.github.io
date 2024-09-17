@@ -1,6 +1,6 @@
 # twwang97.github.io
 
-* resume template
+* resume template 2024
 
 ### Note
 
