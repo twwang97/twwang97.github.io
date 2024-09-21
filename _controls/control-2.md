@@ -1,6 +1,6 @@
 ---
 title: "MIMO System Identification of A Quadcopter"
-excerpt: "Keywords: ARX Model, H \$\infty\$ Synthesis<br/><img src='/images/drone_arx_model.png'>"
+excerpt: "Keywords: ARX Model, H-infinity Synthesis<br/><img src='/images/drone_arx_model.png'>"
 collection: controls
 ---
 
