@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "David's Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -22,6 +22,12 @@ Education
 
 Work experience
 ======
+* <b>Software Engineer</b> at [Vecow Co., Ltd.](https://www.vecow.com/) (Oct. 2023 – Present)
+  * Synchronized and visualized point clouds from LiDARs and cameras using the PCL library.
+  * Fine-tuned PTP and gPTP protocols for precise GPS time synchronization system-wide.
+  * Developed a sensor fusion algorithm integrating IMU and GPS for AMR navigation.
+  * Integrated GPS and IMU sensor fusion recipes into the PetaLinux environment.
+
 * <b>Firmware Engineering Intern</b> at [Aeroprobing Inc.](https://aeroprobing.com/) (Jun. 2021 – Aug. 2022)
   * Developed and optimized FreeRTOS-based task synchronization for drones.
   * Managed sensor modules with SPI/I2C/UART protocols.

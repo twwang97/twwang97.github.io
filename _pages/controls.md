@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Control Projects"
 permalink: /controls/
 collection: controls
 ---
