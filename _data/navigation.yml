@@ -10,7 +10,7 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Thesis" # "Portfolio"
+  - title: "Thesis"
     url: /thesis/
 
   - title: "Computer Vision"
@@ -19,8 +19,8 @@ main:
   - title: "Controls"
     url: /controls/
 
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
         
   # - title: "Blog Posts"
   #   url: /year-archive/

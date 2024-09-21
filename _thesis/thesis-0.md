@@ -27,6 +27,4 @@ In addition to the above-mentioned research fields, <b>GMapping</b> and <b>navig
 * Conducted two-dimensional (2D) LiDAR SLAM and presented modified GMapping that addresses <b>loop-closing</b>.
 * Developed different pathfinding algorithms on navigation mesh (NavMesh) and implemented the path <b>replanning</b> mechanism.
 
-<br>
-
-Although two of the journal papers were recently rejected, I view this as an opportunity for further refinement and development. If you are interested in discussing any of these topics or my research in more detail, please feel free to contact me directly via [email](twwang97@gmail.com). Thank you!
+Although two of the journal papers were recently rejected, I view this as an opportunity for further refinement and development. If you are interested in discussing any of these topics or my research in more detail, please feel free to contact me directly via email. Thank you!
