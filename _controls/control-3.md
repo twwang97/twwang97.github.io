@@ -1,6 +1,6 @@
 ---
 title: "$\mu$-Synthesis Design of A Half-Car Active Suspension System"
-excerpt: "Keywords: $\mu$-Synthesis, Robust Performance<br/><img src='/images/mu_synthesis_model.png'>"
+excerpt: "Keywords: \$\mu\$-Synthesis, Robust Performance<br/><img src='/images/mu_synthesis_model.png'>"
 collection: controls
 ---
 
