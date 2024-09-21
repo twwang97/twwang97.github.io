@@ -1,6 +1,6 @@
 ---
 title: "Wheeled Inverted Pendulum"
-excerpt: "Keywords: System Identification, PID Control<br/><img src='/images/inverted.png'>"
+excerpt: "In this project, we apply several control schemes, including PID control, to the inverted pendulum. We analyze the system's characteristics to enhance its performance, aiming to shorten the settling time and minimize the steady-state error.<br/><img src='/images/inverted.png'>"
 collection: controls
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "MIMO System Identification of A Quadcopter"
-excerpt: "Keywords: ARX Model, H-infinity Synthesis<br/><img src='/images/drone_arx_model.png'>"
+excerpt: "The Multi-Input Multi-Output (MIMO) system of a quadcopter is more complex than a simple Single-Input Single-Output (SISO) system, necessitating a scientific analysis. After tuning a stable PID controller, we found that the ARX model best fits the experimental data. Our system identification approach enables the design of a stabilizing controller that improves the quadcopter's performance.<br/><img src='/images/drone_arx_model.png'>"
 collection: controls
 ---
 
