@@ -25,10 +25,6 @@ This section offers a glimpse into my diverse portfolio, showcasing various proj
 ======
 Dive deep into the heart of my research as I summarize the contents and highlight my contributions in my master's thesis projects. Gain insights into the exciting world of robotics and engineering.
 
-[Publications](https://twwang97.github.io/publications/)
-======
-Explore a curated collection of my “published” papers. Each entry provides a brief introduction, including abstracts, offering a window into my academic pursuits and contributions to the field.
-
 Feel free to navigate through these sections to learn more about my academic and research endeavors. Whether you're an academic peer, a potential collaborator, or simply someone curious about the world of mechanical engineering, I invite you to explore and connect with me on this journey of innovation and discovery.
 
 Thank you for visiting, and I look forward to sharing my passion for engineering and robotics with you.
