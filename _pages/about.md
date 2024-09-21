@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello, I'm Tsung-Wun (David) Wang, a recent graduate with a Master of Science degree in mechanical engineering from National Taiwan University. I successfully defended my [thesis](https://twwang97.github.io/publication/2010-10-01-paper-title-number-2) on July 26, 2023, and I'm thrilled to share my academic and research journey with you.
+Hello, I'm Tsung-Wun (David) Wang, a recent graduate with a Master of Science degree in mechanical engineering from National Taiwan University. I successfully defended my [thesis](https://twwang97.github.io/files/thesis_abstract.pdf) on July 26, 2023, and I'm thrilled to share my academic and research journey with you.
 
 During my studies, I delved deep into the realm of mechanical engineering, with a particular focus on areas such as <b>SLAM (Simultaneous Localization and Mapping)</b>, <b>computer vision</b>, <b>motion planning</b>, and <b>navigation for mobile robots</b>. My academic pursuits have led me to explore innovative solutions to complex engineering challenges.
 
