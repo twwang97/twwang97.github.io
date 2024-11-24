@@ -1,6 +1,6 @@
 ---
 title: "Research Contributions"
-excerpt: "In the summer of 2023, I successfully defended my thesis titled “<b>Development of 3D Reconstruction and Navigation for Mobile Robots</b>”. As the title suggests, my research integrates two key components: <b>3D reconstruction</b> and <b>autonomous mobile robots (AMRs)</b>. This work not only forms the basis of my [master’s thesis](http://twwang97.github.io/files/thesis_abstract.pdf) published at National Taiwan University but also encompasses <b>three</b> distinct paper drafts that each explore individual aspects of my research.<br><br> After reading the [summary](https://twwang97.github.io/thesis/thesis-0/) of the thesis and my contributions, you can visualize my experiments with the following videos."
+excerpt: "In the summer of 2023, I successfully defended my thesis titled “<b>Development of 3D Reconstruction and Navigation for Mobile Robots</b>”. As the title suggests, my research integrates two key components: <b>3D reconstruction</b> and <b>autonomous mobile robots (AMRs)</b>. This work not only forms the basis of my [master’s thesis](http://twwang97.github.io/files/thesis_abstract.pdf) published at [National Taiwan University](https://tdr.lib.ntu.edu.tw/handle/123456789/91054) but also encompasses <b>three</b> distinct paper drafts that each explore individual aspects of my research.<br><br> After reading the [summary](https://twwang97.github.io/thesis/thesis-0/) of the thesis and my contributions, you can visualize my experiments with the following videos."
 collection: thesis
 ---
 
