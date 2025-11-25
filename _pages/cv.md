@@ -10,23 +10,24 @@ redirect_from:
 {% include base_path %}
 
 
-[Download my resume here.](http://twwang97.github.io/files/professional_standard_resume_0915.pdf)
+[Download my resume here.](http://twwang97.github.io/files/resume_TsungWun.pdf)
 
 Education
 ======
 * M.S. in Mechanical Engineering, National Taiwan University, 2023
-  * Thesis: [Development of 3D Reconstruction and Navigation for Mobile Robots](https://twwang97.github.io/thesis/)
+  * Thesis: [Development of 3D Reconstruction and Navigation for Mobile Robots](https://twwang97.github.io/thesis/) (DOI: 10.6342/NTU202303775)
   * Relevant Coursework: Advanced Computer Vision, 3D Computer Vision with Deep Learning Applications, Operating Systems, Adaptive Signal Processing, System Identification
 * B.S. in Mechanical Engineering, National Taiwan University, 2020
   * Relevant Coursework: Robot Vision, Introduction to Robotics, Machine Learning
 
 Work experience
 ======
-* <b>Software Engineer</b> at [Vecow Co., Ltd.](https://www.vecow.com/) (Oct. 2023 – Present)
-  * Synchronized and visualized point clouds from LiDARs and cameras using the PCL library.
-  * Fine-tuned PTP and gPTP protocols for precise GPS time synchronization system-wide.
-  * Developed a sensor fusion algorithm integrating IMU and GPS for AMR navigation.
-  * Integrated GPS and IMU sensor fusion recipes into the PetaLinux environment.
+* <b>Engineer</b> at [Vecow Co., Ltd.](https://www.vecow.com/) (Oct. 2023 – Sept. 2025)
+  * Architected FPGA + Vitis pipeline on Zynq UltraScale+ MPSoC for deterministic multi‑camera streaming.
+  * Ported ROS2 Humble EKF localization and gPTP time sync into PetaLinux using a meta‑ros layer.
+  * Developed sensor fusion (IMU + GPS) to improve AMR navigation accuracy.
+  * Implemented Python test automation to reduce regression time and accelerate releases.
+  * Configured device tree bindings and produced Debian 11 builds for rapid, standardized deployment.
 
 * <b>Firmware Engineering Intern</b> at [Aeroprobing Inc.](https://aeroprobing.com/) (Jun. 2021 – Aug. 2022)
   * Developed and optimized FreeRTOS-based task synchronization for drones.
@@ -45,6 +46,11 @@ Work experience
 
 Course projects
 ======
+* <b>VHDL Implementation of Carry‑Lookahead and Ripple Adder on DE2‑115</b> (Fall 2025) [GitHub](https://github.com/twwang97/altera-de2-115.git), [Report](http://twwang97.github.io/files/report_verilog_adder.pdf), [YouTube](https://youtu.be/tccfjy2j27w)
+  * Designed and implemented RCA and CLA in VHDL/Verilog and synthesized with Quartus.
+  * Verified FSM-based designs using ModelSim testbenches covering directed and corner-case stimuli.
+  * Integrated 8-bit comparators with a 7‑segment display and demonstrated real‑time operation on DE2‑115.
+
 * <b>Real-time Pipeline for 3D Mesh Reconstruction from RGB-D Data</b> (Spring 2023) [YouTube](https://youtu.be/tccfjy2j27w)
   * Developed a real-time pipeline for 3D mesh reconstruction using RGB-D data.
   * Enhanced camera pose estimation accuracy with bilateral filtering.
@@ -63,7 +69,7 @@ Courses & Certifications
 ======
 Here are some of the online courses I've completed recently, including details on the course content and certificates.
 
-* <b>FPGA Computing Systems</b> (Coursera) [Certificate](https://www.coursera.org/account/accomplishments/specialization/ZB0ZIV4NIA6A)  
+* <b>FPGA Computing Systems</b> (Coursera) [Certificate](http://twwang97.github.io/files/Coursera_FPGAcomputingSpecialization.pdf) 
   * Completed on Aug. 2024  
   * Course Contents:
     - FPGA computing systems: Background knowledge and introductory materials

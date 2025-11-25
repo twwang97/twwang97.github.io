@@ -9,8 +9,11 @@ main:
 
   - title: "CV"
     url: /cv/
-    
-  - title: "Thesis"
+
+  - title: "FPGA"
+    url: /fpga/
+
+  - title: "Robotics"
     url: /thesis/
 
   - title: "Computer Vision"

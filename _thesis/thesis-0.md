@@ -1,25 +1,25 @@
 ---
 title: "Research Contributions"
-excerpt: "In the summer of 2023, I successfully defended my thesis titled “<b>Development of 3D Reconstruction and Navigation for Mobile Robots</b>”. As the title suggests, my research integrates two key components: <b>3D reconstruction</b> and <b>autonomous mobile robots (AMRs)</b>. This work not only forms the basis of my [master’s thesis](http://twwang97.github.io/files/thesis_abstract.pdf) published at [National Taiwan University](https://tdr.lib.ntu.edu.tw/handle/123456789/91054) but also encompasses <b>three</b> distinct paper drafts that each explore individual aspects of my research.<br><br> After reading the [summary](https://twwang97.github.io/thesis/thesis-0/) of the thesis and my contributions, you can visualize my experiments with the following videos."
+excerpt: "In the summer of 2023, I successfully defended my thesis titled “<b>Development of 3D Reconstruction and Navigation for Mobile Robots</b>”. As the title suggests, my research integrates two key components: <b>3D reconstruction</b> and <b>autonomous mobile robots (AMRs)</b>. This work not only forms the basis of my [master’s thesis](http://twwang97.github.io/files/thesis_abstract.pdf) published at [National Taiwan University](https://tdr.lib.ntu.edu.tw/handle/123456789/91054) but also encompasses <b>three</b> distinct published papers that each explore individual aspects of my research.<br><br> After reading the [summary](https://twwang97.github.io/thesis/thesis-0/) of the thesis and my contributions, you can visualize my experiments with the following videos."
 collection: thesis
 ---
 
-My [master’s thesis](http://twwang97.github.io/files/thesis_abstract.pdf) can be categorized into three parts, from 3D reconstruction to 2D and 3D navigation of AMRs. 
+My [master’s thesis](http://twwang97.github.io/files/thesis_abstract.pdf) can be categorized into three parts, from 3D reconstruction to 3D and 2D navigation of AMRs.
 
 * Title: <b>Improved Real-Time Dense ORB SLAM with GPU Implementation</b>
     * Authors: Tsung-Wun Wang, Han-Pang Huang, Chiou-Shann Fuh
     * Status: <b>Accepted</b> (August 2023) by the 36th IPPR Conference on Computer Vision, Graphics, and Image Processing, Kinmen, Taiwan.
     * Contribution: This paper presents a GPU-accelerated RGB-D SLAM module that enhances real-time performance and depth measurement quality, crucial for effective 3D reconstruction in robotics.
 
+* Title: <b> Vision-Guided Autonomous Robot Navigation in Realistic 3D Dynamic Scenarios</b>
+    * Authors: Tsung-Wun Wang, Han-Pang Huang, Yu-Lin Zhao
+    * Status: Published (February 2025) by Applied Sciences.
+    * Contribution: This work introduces a comprehensive navigation system for mobile robots that integrates SLAM with dynamic obstacle avoidance, addressing real-time challenges in 3D environments.
+
 * Title: <b>Search-based Path Replanning for Autonomous Navigation and Obstacle Avoidance</b>
     * Authors: Tsung-Wun Wang, Han-Pang Huang
     * Status: Rejected (October 2023) by Advanced Robotics (RSJ).
     * Contribution: This paper analyzes search-based pathfinding algorithms for 2D navigation, enhancing real-time obstacle avoidance strategies in dynamic settings.
-
-* Title: <b>Vision-based Autonomous Robot Navigation in 3D Dynamic Environments</b>
-    * Authors: Tsung-Wun Wang, Han-Pang Huang
-    * Status: Rejected (November 2023) by IEEE Transactions on Automation Science and Engineering.
-    * Contribution: This work introduces a comprehensive navigation system for mobile robots that integrates SLAM with dynamic obstacle avoidance, addressing real-time challenges in 3D environments.
 
 <br>
 
