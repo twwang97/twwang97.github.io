@@ -181,6 +181,9 @@ collections:
   # publications:
   #   output: true
   #   permalink: /:collection/:path/
+  fpga:
+    output: true
+    permalink: /:collection/:path/
   thesis:
     output: true
     permalink: /:collection/:path/
@@ -233,6 +236,15 @@ defaults:
   #     author_profile: true
   #     share: true
   #     comments: true
+  # _fpga
+  - scope:
+      path: ""
+      type: fpga
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _thesis
   - scope:
       path: ""
