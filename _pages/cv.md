@@ -17,6 +17,9 @@ Education
 * M.S. in Mechanical Engineering, National Taiwan University, 2023
   * Thesis: [Development of 3D Reconstruction and Navigation for Mobile Robots](https://twwang97.github.io/thesis/) (DOI: 10.6342/NTU202303775)
   * Relevant Coursework: Advanced Computer Vision, 3D Computer Vision with Deep Learning Applications, Operating Systems, Adaptive Signal Processing, System Identification
+<!-- master's thesis link: http://dx.doi.org/10.6342/NTU202303775 -->
+<!-- master's thesis link: https://hdl.handle.net/11296/gg76bb -->
+<!-- master's thesis link: https://tdr.lib.ntu.edu.tw/jspui/handle/123456789/91054 -->
 * B.S. in Mechanical Engineering, National Taiwan University, 2020
   * Relevant Coursework: Robot Vision, Introduction to Robotics, Machine Learning
 

@@ -13,12 +13,12 @@ My [master’s thesis](http://twwang97.github.io/files/thesis_abstract.pdf) can 
 
 * Title: <b> Vision-Guided Autonomous Robot Navigation in Realistic 3D Dynamic Scenarios</b>
     * Authors: Tsung-Wun Wang, Han-Pang Huang, Yu-Lin Zhao
-    * Status: Published (February 2025) by Applied Sciences.
+    * Status: <b>Published</b> (February 2025) by Applied Sciences.
     * Contribution: This work introduces a comprehensive navigation system for mobile robots that integrates SLAM with dynamic obstacle avoidance, addressing real-time challenges in 3D environments.
 
 * Title: <b>Search-based Path Replanning for Autonomous Navigation and Obstacle Avoidance</b>
-    * Authors: Tsung-Wun Wang, Han-Pang Huang
-    * Status: Rejected (October 2023) by Advanced Robotics (RSJ).
+    * Authors: Tsung-Wun Wang, Han-Pang Huang, Yu-Lin Zhao, and Cheng-Chi Lee
+    * Status: <b>Accepted</b> (November 2024) by the 21th International Conference on Automation Technology, Taipei, Taiwan.
     * Contribution: This paper analyzes search-based pathfinding algorithms for 2D navigation, enhancing real-time obstacle avoidance strategies in dynamic settings.
 
 <br>
