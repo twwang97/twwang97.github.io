@@ -46,10 +46,10 @@ Work experience
 
 Course projects
 ======
-* <b>VHDL Implementation of Carry‑Lookahead and Ripple Adder on DE2‑115</b> (Fall 2025) [GitHub](https://github.com/twwang97/altera-de2-115.git), [Report](http://twwang97.github.io/files/report_verilog_adder.pdf), [YouTube](https://youtu.be/tccfjy2j27w)
-  * Designed and implemented RCA and CLA in VHDL/Verilog and synthesized with Quartus.
-  * Verified FSM-based designs using ModelSim testbenches covering directed and corner-case stimuli.
-  * Integrated 8-bit comparators with a 7‑segment display and demonstrated real‑time operation on DE2‑115.
+* <b>Analysis of 4-bit Counter using J-K Flip-Flops with LTspice, ModelSim, and DE2-115</b> (Fall 2025) [GitHub](https://github.com/twwang97/altera-de2-115.git), [Report](http://twwang97.github.io/files/report_fpga_4bit_counter.pdf), [YouTube](https://youtu.be/KPDtDhJqPgE)
+  * Designed a 4-bit counter using J-K FFs in LTspice with an R-2R D/A converter and ran simulation.
+  * Implemented a 4-bit counter in VHDL, synthesized with Quartus, and verified such a design using ModelSim testbenches.
+  * Developed a two-stage synchronizer to debounce the pushbutton and demonstrated real‑time operation with 7‑segment display on DE2-115.
 
 * <b>Real-time Pipeline for 3D Mesh Reconstruction from RGB-D Data</b> (Spring 2023) [YouTube](https://youtu.be/tccfjy2j27w)
   * Developed a real-time pipeline for 3D mesh reconstruction using RGB-D data.
@@ -67,7 +67,40 @@ Course projects
 
 Courses & Certifications
 ======
-Here are some of the online courses I've completed recently, including details on the course content and certificates.
+Here are some of the training courses I've completed recently, including details on the course content and certificates.
+
+* <b>The Electronics and AI Training Program</b> (National Yang Ming Chiao Tung University) [Certificate](http://twwang97.github.io/files/certificate_nycu_fall2025.jpg) 
+  * Completed on Nov. 2025  
+  * Course Contents:
+    - Electronic Circuit Design (40 hr)
+    - Digital Design with FPGA (50 hr)
+    - Semiconductor Manufacturing Technology (30 hr)
+    - Introduction to Semiconductor Equipment (AOI Focus) (20 hr)
+    - CMOS Memory Circuits (12 hr)
+    - Microelectronics Labs (12 hr)
+    - Data Analysis with Python (40 hr)
+
+* <b>Introduction to Semiconductor and MEMS Fabrication</b> (Coursera) [Certificate](https://www.coursera.org/account/accomplishments/specialization/X6IEHL9THGNY)
+  * Completed on Oct. 2025
+  * Course Contents:
+    - Introduction to Microfabrication
+    - Microfabrication Fundamental Processes
+    - Additional Process Techniques in Microfabrication
+    - Introduction to Micro Electro Mechanical Systems (MEMS)
+    - Modeling, IC Processes and Emerging Microtechnology
+
+* <b>Semiconductor Characterization</b> (Coursera) [Certificate](https://www.coursera.org/account/accomplishments/specialization/EVY9BF4NVJP5)
+  * Completed on Oct. 2025
+  * Course Contents:
+    - Fundamentals of Semiconductor Characterization
+    - Electrical Characterization: Diodes
+    - Electrical Characterization: MOSFETs
+    - Electron and Ion Beam Characterization
+    - Optical and X-Ray Characterization
+
+* <b>VLSI CAD Part I: Logic</b> (Coursera) [Certificate](https://www.coursera.org/account/accomplishments/verify/IITCCWT542BK)  
+  * Completed on Oct. 2024  
+  * Learned logic synthesis, Boolean representations, and CAD algorithms for optimizing digital circuits
 
 * <b>FPGA Computing Systems</b> (Coursera) [Certificate](http://twwang97.github.io/files/Coursera_FPGAcomputingSpecialization.pdf) 
   * Completed on Aug. 2024  
