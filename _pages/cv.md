@@ -69,7 +69,7 @@ Courses & Certifications
 ======
 Here are some of the training courses I've completed recently, including details on the course content and certificates.
 
-* <b>The Electronics and AI Training Program</b> (National Yang Ming Chiao Tung University) [Certificate](http://twwang97.github.io/files/certificate_nycu_fall2025.jpg) 
+* <b>The Electronics and AI Training Program</b> (National Yang Ming Chiao Tung University) [Certificate](http://twwang97.github.io/files/certificate_nycu_fall2025.jpg), [Syllabus](https://base.stem.lasercenter.nycu.edu.tw/storage/backend/courses/1316076bd92678b7402924bc4cf21a6a.pdf)
   * Completed on Nov. 2025  
   * Course Contents:
     - Electronic Circuit Design (40 hr)
