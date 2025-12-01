@@ -4,6 +4,5 @@ excerpt: "Simulation of circuit behavior in LTspice and FPGA implementation of a
 collection: fpga
 ---
 
-4-bit Counter: Circuit Simulation (LTspice) and FPGA Implementation (ModelSim + Altera DE2)
-======
-* [GitHub](https://github.com/twwang97/altera-de2-115/tree/nycu2025/4bit-counter-jkff), [Report](http://twwang97.github.io/files/report_fpga_4bit_counter.pdf), [YouTube](https://youtu.be/KPDtDhJqPgE)
+* Topic: 4-bit Counter: Circuit Simulation (LTspice) and FPGA Implementation (ModelSim + Altera DE2)
+* External Link: [GitHub](https://github.com/twwang97/altera-de2-115/tree/nycu2025/4bit-counter-jkff), [Report](http://twwang97.github.io/files/report_fpga_4bit_counter.pdf), [YouTube](https://youtu.be/KPDtDhJqPgE)
