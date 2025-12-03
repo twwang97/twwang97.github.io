@@ -26,7 +26,13 @@ Education
 Work experience
 ======
 * <b>Engineer</b> at [Vecow Co., Ltd.](https://www.vecow.com/) (Oct. 2023 – Sept. 2025)
-  * Architected FPGA + Vitis pipeline on Zynq UltraScale+ MPSoC for deterministic multi‑camera streaming.
+* _(FPGA-related)_
+  * `Multi‑camera streaming pipeline`: Designed a multi‑camera video pipeline on Zynq UltraScale+ MPSoC, integrating Vivado IP with Vitis applications to deliver stable, low‑latency live streams from MIPI sensors and a scalable path for adding cameras.
+  * `MIPI/CSI‑2 bring‑up and validation`: Configured D‑PHY/CSI‑2 and video pipeline IP blocks in Vivado; used ILA to probe signals (e.g., video_out_tuser) and confirmed format handling (e.g., YUV422 8‑bit) alongside oscilloscope.
+  * `Sensor initialization via I2C`: Implemented robust camera initialization and control flows in Vitis; verified transaction correctness and bus timing with a Saleae logic analyzer, improving first‑frame success and stream stability during continuous operation.
+  * `Frame buffer and BRAM integration`: Built AXI4‑Stream ↔ AXI4 memory paths using Video Frame Buffer Write/Read IP and block RAM to enable deterministic buffering, inline data inspection, and efficient handoff to downstream video processing stages.
+  * `Tcl build automation`: Automated Vivado synthesis, implementation, and bitstream generation with Tcl, creating reproducible builds and shortening iteration cycles for the team.
+* _(software-related)_
   * Ported ROS2 Humble EKF localization and gPTP time sync into PetaLinux using a meta‑ros layer.
   * Developed sensor fusion (IMU + GPS) to improve AMR navigation accuracy.
   * Implemented Python test automation to reduce regression time and accelerate releases.
