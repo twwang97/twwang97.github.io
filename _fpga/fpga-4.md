@@ -1,9 +1,9 @@
 ---
-title: "gPTP Time Sync with FPGA (Vecow)"
-excerpt: "PetaLinux<br/>"
+title: "Multiple GMSL Cameras with FPGA (Vecow)"
+excerpt: "Vivado and Vitis<br/>"
 collection: fpga
 ---
 
-<!-- VTS-1200 at Vecow -->
+<!-- VE-1008 at Vecow -->
 
-We ported ROS2 Humble gPTP time sync into PetaLinux using a meta‑ros layer, so the timers across different devices such as cameras and LiDAR were synchronized. This [report](http://twwang97.github.io/files/report_vecow_vts_simple.pdf) demonstrated how both stereo depth camera and 32-thread LiDAR synchronize their timers with our VTS series.
+We developed some VHDL in Vivado and architected a Vitis pipeline to program our Zynq UltraScale+ MPSoC for deterministic multi‑camera streaming. This [report](http://twwang97.github.io/files/report_vecow_ve1008_simple.pdf) demonstrated the multi‑camera streaming and added a block RAM for data verification.

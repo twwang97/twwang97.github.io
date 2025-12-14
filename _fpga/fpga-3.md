@@ -1,9 +1,14 @@
 ---
-title: "Multiple GMSL Cameras with FPGA (Vecow)"
-excerpt: "Vivado and Vitis<br/>"
+title: "FPGA Projects at NYCU (2025)"
+excerpt: "sub-project: FSM-based RCA/CLA with magnitude comparators <br>sub-project: Simulation of a phase detector<br>"
 collection: fpga
 ---
 
-<!-- VE-1008 at Vecow -->
+- Project 1: FSM-based RCA/CLA with Magnitude Comparators
+  * [GitHub](https://github.com/twwang97/altera-de2-115.git), [Report](http://twwang97.github.io/files/report_verilog_adder.pdf), [YouTube](https://youtu.be/OLvouKIflv0)
+  * Designed and implemented ripple-carry adder (RCA) and carry-lookahead adder (CLA) in VHDL/Verilog and synthesized with Quartus.
+  * Verified FSM-based designs using ModelSim testbenches covering directed and corner-case stimuli.
+  * Integrated 8-bit comparators with a 7‑segment display and demonstrated real‑time operation on DE2‑115.
 
-We developed some VHDL in Vivado and architected a Vitis pipeline to program our Zynq UltraScale+ MPSoC for deterministic multi‑camera streaming. This [report](http://twwang97.github.io/files/report_vecow_ve1008_simple.pdf) demonstrated the multi‑camera streaming and added a block RAM for data verification.
+- Project 2: Simulation of Phase Detector (LTspice and ModelSim)
+  * This [report](http://twwang97.github.io/files/report_phase_detector_nycu_1126.pdf) analyzes different types of phase detectors and PLLs and simulates in both LTspice and ModelSim software.
