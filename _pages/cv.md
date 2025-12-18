@@ -55,10 +55,10 @@ Work experience
 
 Course projects
 ======
-* <b>Analysis of 4-bit Counter using J-K Flip-Flops with LTspice, ModelSim, and DE2-115</b> (Fall 2025) [GitHub](https://github.com/twwang97/altera-de2-115.git), [Report](http://twwang97.github.io/files/report_fpga_4bit_counter.pdf), [YouTube](https://youtu.be/KPDtDhJqPgE)
-  * Designed a 4-bit counter using J-K FFs in LTspice with an R-2R D/A converter and ran simulation.
-  * Implemented a 4-bit counter in VHDL, synthesized with Quartus, and verified such a design using ModelSim testbenches.
-  * Developed a two-stage synchronizer to debounce the pushbutton and demonstrated real‑time operation with 7‑segment display on DE2-115.
+* <b>Verilog Implementation of Real-time Edge Detection on Basys 3</b> (Fall 2025) [GitHub](https://github.com/twwang97/edge-detection-basys3-ov7670-vga), [YouTube](https://youtu.be/Ro8rp9voRJ4?t=93)
+  * Designed and implemented a real‑time image processing pipeline in Verilog for Basys 3 using an OV7670 camera and VGA output.
+  * Integrated SCCB camera control and optimized data path from RGB565 data capture from OV7670,
+  * Implemented Sobel and weighted edge‑detection kernels in RTL and developed VGA timing and multi‑mode display (Color Bar, RGB444, Sobel Edge, Weighted Edge).
 
 * <b>Real-time Pipeline for 3D Mesh Reconstruction from RGB-D Data</b> (Spring 2023) [YouTube](https://youtu.be/tccfjy2j27w)
   * Developed a real-time pipeline for 3D mesh reconstruction using RGB-D data.
