@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tsung-Wun Wang"
 title_separator          : "-"
 name                     : &name "Tsung-Wun Wang"
-description              : &description "Student at National Taiwan University"
+description              : &description "Engineer"
 url                      : "https://twwang97.github.io" # the base hostname & protocol for your site e.g. "https://username.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "twwang97/twwang97.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Tsung-Wun (David) Wang"
   avatar           : "avatar.png"
-  bio              : "Student at National Taiwan University"
+  bio              : "Engineer"
   location         : "Taipei, Taiwan"
   employer         :
   pubmed           : 
