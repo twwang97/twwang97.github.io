@@ -1,17 +1,23 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Hardware Engineer — FPGA & Embedded Systems"
+excerpt: "Tsung-Wun (David) Wang — Hardware Engineer specializing in FPGA RTL design, embedded Linux, and camera/sensor integration."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello — I’m Tsung-Wun (David) Wang. I recently completed 230 hours in the [Electronics and AI Training Program (3rd Session, 2025)](http://twwang97.github.io/files/certificate_nycu_fall2025.jpg) launched by the Ministry of Labor, Taiwan. There I deepened my electronics knowledge and gained hands‑on experience working with components in the Microelectronics Lab.
+<p class="page__lead">RTL design, board-level integration, and embedded Linux for camera and sensor systems — most recently at Vecow, building deterministic multi-camera streaming on a Xilinx Zynq UltraScale+ MPSoC.</p>
 
-Previously, I worked as an engineer at Vecow, focusing on hands‑on RTL design (Verilog), board‑level integration, and embedded Linux experience. My projects show competence in **camera** interfaces, synchronization protocols (**gPTP**), and use of industry toolchains such as **Vivado** and **Vitis**, plus familiarity with **PetaLinux** for system builds. For a full breakdown of my responsibilities and results, please see my [resume](http://twwang97.github.io/files/resume_TsungWun.pdf).
+[Download Resume](/files/resume_TsungWun.pdf){: .btn .btn--large}
+[Email Me](mailto:twwang97@gmail.com){: .btn .btn--inverse .btn--large}
+[LinkedIn](https://www.linkedin.com/in/tsungwun){: .btn .btn--linkedin .btn--large}
 
-This site showcases my resume, professional and research projects, and published papers. Browse to see examples of my engineering and robotics work, including project overviews, technical highlights, and downloadable artifacts. Thank you for visiting — I look forward to connecting and exploring opportunities to collaborate.
+**Core stack:** Verilog · VHDL · Vivado / Vitis · PetaLinux · MIPI CSI‑2 / D‑PHY · gPTP · Embedded Linux
 
-Contact: [twwang97@gmail.com](twwang97@gmail.com) or connect via [LinkedIn](https://www.linkedin.com/in/tsungwun).
+---
+
+At Vecow, I worked hands-on across RTL design (Verilog), board-level integration, and embedded Linux system builds — including camera interfaces, **gPTP** time synchronization across devices, and **PetaLinux**-based deployments. Before that, I completed 230 hours in the [Electronics and AI Training Program (2025)](/files/certificate_nycu_fall2025.jpg), deepening my hands-on electronics and microelectronics lab experience, and researched 3D reconstruction and navigation for mobile robots at National Taiwan University.
+
+See my [full CV](/cv/) for a detailed breakdown, or browse **FPGA**, **Robotics**, **Computer Vision**, and **Controls** above for project write-ups.

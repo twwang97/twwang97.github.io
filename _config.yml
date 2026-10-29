@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tsung-Wun Wang"
 title_separator          : "-"
 name                     : &name "Tsung-Wun Wang"
-description              : &description "Engineer"
+description              : &description "Hardware Engineer specializing in FPGA RTL design, embedded Linux, and camera/sensor integration."
 url                      : "https://twwang97.github.io" # the base hostname & protocol for your site e.g. "https://username.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "twwang97/twwang97.github.io"
@@ -19,7 +19,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -62,7 +61,7 @@ facebook:
   username               : 
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "og-image.png" # Open Graph/Twitter default site image (in /images/)
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -72,8 +71,12 @@ social:
 
 
 # Analytics
+# NOTE: Google "Universal Analytics" (the google-universal provider) was shut
+# down by Google in 2023 and no tracking_id was ever configured, so this was
+# previously injecting a dead, non-functional script into every page.
+# Set provider to "google" with a GA4 tracking_id (or "custom") if you want analytics.
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false # false (default), "google", "custom"
   google:
     tracking_id          :
 
@@ -82,7 +85,7 @@ analytics:
 author:
   name             : "Tsung-Wun (David) Wang"
   avatar           : "avatar.png"
-  bio              : "Engineer"
+  bio              : "Hardware Engineer — FPGA, Embedded Linux, Camera/Sensor Systems"
   location         : "Taipei, Taiwan"
   employer         :
   pubmed           : 
@@ -125,27 +128,16 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - .asset-cache
   - .bundle
-  - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - Capfile
   - Gemfile
-  - Gruntfile.js
   - LICENSE
-  - README
-  - Rakefile
+  - README.md
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
   - node_modules
   - package.json
-  - tmp
-  - vendor
 keep_files:
   - .git
   - .svn
@@ -175,12 +167,6 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  # publications:
-  #   output: true
-  #   permalink: /:collection/:path/
   fpga:
     output: true
     permalink: /:collection/:path/
@@ -193,24 +179,10 @@ collections:
   controls:
     output: true
     permalink: /:collection/:path/
-  # talks:
-  #   output: true
-  #   permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -218,24 +190,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # # _publications
-  # - scope:
-  #     path: ""
-  #     type: publications
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comments: true
   # _fpga
   - scope:
       path: ""
@@ -244,7 +198,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _thesis
   - scope:
       path: ""
@@ -253,7 +207,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _visions
   - scope:
       path: ""
@@ -262,7 +216,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _controls
   - scope:
       path: ""
@@ -271,15 +225,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
@@ -291,7 +237,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Taipei # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

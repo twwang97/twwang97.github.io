@@ -4,4 +4,4 @@ excerpt: "This project introduces a decoupling method called Disturbance Respons
 collection: controls
 ---
 
-Please refer to the detailed [report](http://twwang97.github.io/files/report_optical.pdf). 
+Please refer to the detailed [report](/files/report_optical.pdf). 

@@ -10,12 +10,21 @@ redirect_from:
 {% include base_path %}
 
 
-[Download my resume here.](http://twwang97.github.io/files/resume_TsungWun.pdf)
+[Download my resume here.](/files/resume_TsungWun.pdf)
+
+Highlights
+======
+* **2+ years of hands-on FPGA/RTL experience** — Verilog design, Vivado/Vitis toolchains, and MIPI CSI‑2/D‑PHY camera pipelines on a Xilinx Zynq UltraScale+ MPSoC at Vecow Co., Ltd.
+* **Embedded Linux & systems integration** — PetaLinux builds, device tree configuration, gPTP time synchronization, and ROS2 sensor fusion for autonomous mobile robots.
+* **Hardware validation toolchain** — proficient with ILA, oscilloscope, and Saleae logic analyzer for signal-level debugging and protocol verification (I2C, SPI, UART, CSI‑2).
+* **M.S. in Mechanical Engineering, National Taiwan University** — thesis on 3D reconstruction and navigation for mobile robots, with three related published works.
+* **Deep certification base** — 230+ hours across FPGA design, semiconductor fabrication/characterization, and VLSI CAD (NYCU, Coursera, Microchip University).
+* **TOEIC 870 / TOEFL 98** — fluent technical communication in English.
 
 Education
 ======
 * M.S. in Mechanical Engineering, National Taiwan University, 2023
-  * Thesis: [Development of 3D Reconstruction and Navigation for Mobile Robots](https://twwang97.github.io/thesis/) (DOI: 10.6342/NTU202303775)
+  * Thesis: [Development of 3D Reconstruction and Navigation for Mobile Robots](/thesis/) (DOI: 10.6342/NTU202303775)
   * Relevant Coursework: Advanced Computer Vision, 3D Computer Vision with Deep Learning Applications, Operating Systems, Adaptive Signal Processing, System Identification
 <!-- master's thesis link: http://dx.doi.org/10.6342/NTU202303775 -->
 <!-- master's thesis link: https://hdl.handle.net/11296/gg76bb -->
@@ -70,7 +79,7 @@ Course projects
   * Integrated Mask-RCNN to handle dynamic obstacles in SLAM structure.
   * Validated the approach using a handheld RealSense camera.
 
-* <b>MIMO System Identification of A Quadcopter</b> (Spring 2022) [report](http://twwang97.github.io/files/report_sysID_David.pdf) [video](https://youtube.com/shorts/HsXJFUH4R2Q)
+* <b>MIMO System Identification of A Quadcopter</b> (Spring 2022) [report](/files/report_sysID_David.pdf) [video](https://youtube.com/shorts/HsXJFUH4R2Q)
   * Conducted MIMO system identification on a quadcopter, comparing various models.
   * Designed and tested a robust controller, evaluating performance improvements.
 
@@ -78,7 +87,7 @@ Courses & Certifications
 ======
 Here are some of the training courses I've completed recently, including details on the course content and certificates.
 
-* <b>The Electronics and AI Training Program</b> (National Yang Ming Chiao Tung University) [Certificate](http://twwang97.github.io/files/certificate_nycu_fall2025.jpg), [Syllabus](https://base.stem.lasercenter.nycu.edu.tw/storage/backend/courses/1316076bd92678b7402924bc4cf21a6a.pdf)
+* <b>The Electronics and AI Training Program</b> (National Yang Ming Chiao Tung University) [Certificate](/files/certificate_nycu_fall2025.jpg), [Syllabus](https://base.stem.lasercenter.nycu.edu.tw/storage/backend/courses/1316076bd92678b7402924bc4cf21a6a.pdf)
   * Completed on Nov. 2025  
   * Course Contents:
     - Electronic Circuit Design (40 hr)
@@ -111,7 +120,7 @@ Here are some of the training courses I've completed recently, including details
   * Completed on Oct. 2024  
   * Learned logic synthesis, Boolean representations, and CAD algorithms for optimizing digital circuits
 
-* <b>FPGA Computing Systems</b> (Coursera) [Certificate](http://twwang97.github.io/files/Coursera_FPGAcomputingSpecialization.pdf) 
+* <b>FPGA Computing Systems</b> (Coursera) [Certificate](/files/Coursera_FPGAcomputingSpecialization.pdf) 
   * Completed on Aug. 2024  
   * Course Contents:
     - FPGA computing systems: Background knowledge and introductory materials
@@ -147,12 +156,6 @@ English Proficiency
 ======
 * TOEIC: <b>870</b> in Apr. 2024
 * TOEFL: <b>98</b> in Sep. 2020
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
 Skills
 ======

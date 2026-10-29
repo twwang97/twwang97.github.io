@@ -8,4 +8,4 @@ collection: fpga
   * Designed a 4-bit counter using J-K FFs in LTspice with an R-2R D/A converter and ran simulation.
   * Implemented a 4-bit counter in VHDL, synthesized with Quartus, and verified such a design using ModelSim testbenches.
   * Developed a two-stage synchronizer to debounce the pushbutton and demonstrated real‑time operation with 7‑segment display on (1) Intel Altera DE2-115 and (2) Diligent Basys 3.
-  * External Link: [GitHub](https://github.com/twwang97/altera-de2-115/tree/nycu2025/4bit-counter-jkff), [Report](http://twwang97.github.io/files/report_fpga_4bit_counter.pdf), [YouTube](https://youtu.be/lHUYbL7JJKo)
+  * External Link: [GitHub](https://github.com/twwang97/altera-de2-115/tree/nycu2025/4bit-counter-jkff), [Report](/files/report_fpga_4bit_counter.pdf), [YouTube](https://youtu.be/lHUYbL7JJKo)

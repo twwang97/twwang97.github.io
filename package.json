@@ -1,22 +1,19 @@
 {
-  "name": "minimal-mistakes",
-  "version": "3.4.2",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "name": "twwang97.github.io",
+  "version": "1.0.0",
+  "description": "Tsung-Wun (David) Wang's personal site — npm build scripts for the theme's JS bundle",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/twwang97/twwang97.github.io.git"
   },
   "keywords": [
     "jekyll",
-    "theme",
-    "minimal"
+    "personal-website",
+    "portfolio"
   ],
-  "author": "Michael Rose",
+  "author": "Tsung-Wun Wang",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "private": true,
   "engines": {
     "node": ">= 0.10.0"
   },
