@@ -1,3 +1,9 @@
+{% comment %}
+  Right-hand "Table of Contents" sidebar, auto-generated from a page's own
+  headings via kramdown's {:toc} extension. Opt in by adding
+  `{% include toc %}` directly in a page's Markdown body -- not wired up
+  automatically by any layout, and not currently used by any page here.
+{% endcomment %}
 <aside class="sidebar__right">
 <nav class="toc" markdown="1">
 <header><h4 class="nav__title"><i class="fa fa-{{ include.icon | default: 'file-text' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>

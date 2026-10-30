@@ -1,3 +1,10 @@
+{% comment %}
+  Wraps the left sidebar. Shows the author-profile widget when
+  `author_profile: true` is set (directly, or inherited from _config.yml's
+  defaults for _pages/collections -- which is how every page on this site
+  gets it without setting the flag itself). The `page.sidebar` block below
+  is an additional, separate "extra content" widget -- not used here.
+{% endcomment %}
 {% include base_path %}
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}

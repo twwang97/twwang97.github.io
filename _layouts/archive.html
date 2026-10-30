@@ -2,6 +2,14 @@
 layout: default
 ---
 
+{% comment %}
+  Layout for pages that list/loop over other content rather than presenting
+  one article: fpga.html, thesis.html, visions.html, controls.md, sitemap.md,
+  and cv.md (set via `layout: archive` in each page's own front matter).
+  Simpler than single.html -- just a title + the raw page content, with no
+  date/citation/comments machinery, since the content itself is usually a
+  for-loop building a list of cards (see archive-single.html).
+{% endcomment %}
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}

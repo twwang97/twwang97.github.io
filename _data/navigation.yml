@@ -1,4 +1,5 @@
-# main links links
+# Top navigation bar menu, rendered by _includes/masthead.html.
+# Order here is the order links appear in the menu.
 main:
 
   - title: "CV"

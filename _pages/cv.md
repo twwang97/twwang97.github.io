@@ -7,8 +7,11 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
+{% comment %}
+  This page is plain Markdown content (no collection loop) -- every section below
+  is hand-written. "Highlights" is a short, skimmable summary placed before the
+  full chronological detail, aimed at a reader doing a fast first pass.
+{% endcomment %}
 
 [Download my resume here.](/files/resume_TsungWun.pdf)
 

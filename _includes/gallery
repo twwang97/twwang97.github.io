@@ -1,3 +1,7 @@
+{% comment %}
+  Renders an image gallery (1/2/3-column grid, lightbox-ready) from a
+  page.gallery front-matter array. Not currently used by any page here.
+{% endcomment %}
 {% include base_path %}
 
 {% if include.id %}

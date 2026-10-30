@@ -1,3 +1,10 @@
+{% comment %}
+  Renders a comment thread + form for whichever provider is selected via
+  site.comments.provider (disqus / facebook / google-plus / staticman /
+  custom). Dormant site-wide: site.comments.provider is unset in
+  _config.yml, and the caller (single.html) also checks it before including
+  this file at all, so none of this currently renders.
+{% endcomment %}
 {% include base_path %}
 
 <div class="page__comments">

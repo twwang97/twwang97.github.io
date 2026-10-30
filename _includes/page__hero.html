@@ -1,3 +1,9 @@
+{% comment %}
+  Full-width header image/overlay banner for a page. Only called when a
+  page sets page.header.image/overlay_image/overlay_color in front matter
+  (see single.html / archive.html / splash.html) -- no content on this
+  site sets a header, so this never currently renders.
+{% endcomment %}
 {% include base_path %}
 
 {% if page.header.image contains "://" %}

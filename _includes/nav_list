@@ -1,3 +1,8 @@
+{% comment %}
+  Renders a navigation menu from _data/navigation.yml. Used for the sidebar
+  nav-list widget (page.sidebar.nav), not for the top masthead menu -- that's
+  rendered separately by masthead.html. Not currently used by any page here.
+{% endcomment %}
 {% include base_path %}
 {% assign navigation = site.data.navigation[include.nav] %}
 

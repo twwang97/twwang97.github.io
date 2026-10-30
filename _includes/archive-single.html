@@ -1,3 +1,16 @@
+{% comment %}
+  Renders one "card" for a single item passed in as `post` (title, optional
+  teaser image, date/venue line, excerpt, citation/paper links). This is the
+  shared card renderer used by every collection listing page on the site
+  (fpga.html, thesis.html, visions.html, controls.md) and by sitemap.md.
+
+  The `post.collection == 'teaching'` / `'publications'` branches below are
+  generic theme logic for collection types this site doesn't have (teaching/
+  publications were removed as unused template content) -- they're harmless
+  dead branches that simply never match, left in place because this file is
+  shared theme code also used by the live fpga/thesis/visions/controls
+  collections via the final `elsif post.date` branch.
+{% endcomment %}
 {% include base_path %}
 
 {% if post.header.teaser %}

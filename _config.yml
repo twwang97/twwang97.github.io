@@ -122,7 +122,6 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
   - files
 exclude:
@@ -166,66 +165,65 @@ kramdown:
 
 
 # Collections
+# Each project section of the site (nav: FPGA / Robotics / Computer Vision /
+# Controls) is backed by one of these collections. All four need identical
+# settings, so "output: true" + the permalink pattern is defined once as the
+# &collection_defaults anchor and merged (<<:) into the rest.
+# To add a 5th project category: add a collections entry here, a matching
+# _<name>/ folder for its content, a _pages/<name>.html listing page (copy
+# fpga.html as a template), and a nav entry in _data/navigation.yml.
 collections:
-  fpga:
+  fpga: &collection_defaults
     output: true
     permalink: /:collection/:path/
   thesis:
-    output: true
-    permalink: /:collection/:path/
+    <<: *collection_defaults
   visions:
-    output: true
-    permalink: /:collection/:path/
+    <<: *collection_defaults
   controls:
-    output: true
-    permalink: /:collection/:path/
+    <<: *collection_defaults
 
 
 # Defaults
+# Front matter values applied automatically by file location, so individual
+# pages/collection items don't need to repeat them.
 defaults:
-  # _pages
+  # _pages (about, cv, fpga, thesis, visions, controls, sitemap, 404)
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _fpga
+
+  # _fpga / _thesis / _visions / _controls all get identical per-item
+  # defaults, defined once as &project_defaults and merged (<<:) into each
+  # scope below so they can't drift out of sync with each other.
   - scope:
       path: ""
       type: fpga
-    values:
+    values: &project_defaults
       layout: single
       author_profile: true
-      share: true
-      comments: true
-  # _thesis
+      share: true       # show social-share buttons (_includes/social-share.html)
+      comments: true    # comments are also gated by site.comments.provider
+                         # above, which is unset -- so this has no visible
+                         # effect until a provider (e.g. disqus) is configured
   - scope:
       path: ""
       type: thesis
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _visions
+      <<: *project_defaults
   - scope:
       path: ""
       type: visions
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _controls
+      <<: *project_defaults
   - scope:
       path: ""
       type: controls
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      <<: *project_defaults
 
 # Sass/SCSS
 sass:
@@ -257,6 +255,13 @@ whitelist:
 
 
 # Archives
+# NOTE: none of this site's content sets `tags:` or `categories:` in its
+# front matter, so these settings are currently inert -- nothing links to
+# /categories/ or /tags/, and those pages don't exist in _pages/ (they were
+# removed as dead weight). If tags/categories are added to content later,
+# you'll also need to re-add _pages/category-archive.html and
+# _pages/tag-archive.html (layout: archive-taxonomy or type: liquid) for
+# these paths to resolve to an actual page instead of a 404.
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives

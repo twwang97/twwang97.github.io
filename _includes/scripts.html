@@ -1,3 +1,12 @@
+{% comment %}
+  Loaded at the end of <body> in default.html. main.min.js is the pre-built,
+  minified bundle of jQuery + the theme's plugins (fitvids, greedy-nav,
+  magnific-popup, smooth-scroll, stickyfill) + assets/js/_main.js; see
+  package.json's "uglify" script for how it's rebuilt from source.
+  analytics.html is a no-op while site.analytics.provider is false;
+  comments-providers/scripts.html is a no-op while site.comments.provider
+  is unset.
+{% endcomment %}
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}

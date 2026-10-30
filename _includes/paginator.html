@@ -1,3 +1,9 @@
+{% comment %}
+  Numbered page-1/2/3 pagination for a jekyll-paginate blog index. The
+  jekyll-paginate plugin is still active in _config.yml, but no page here
+  uses {{ paginator }} (there's no blog index page since _posts was
+  removed), so this never currently renders.
+{% endcomment %}
 {% include base_path %}
 
 {% if paginator.total_pages > 1 %}

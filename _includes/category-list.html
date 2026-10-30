@@ -1,5 +1,11 @@
-{% include base_path %}
-
+{% comment %}
+  Renders "Categories: ..." links on a single-item page, pointing at
+  site.category_archive.path (/categories/, see _config.yml). Only runs if
+  page.categories[0] is set (checked by the caller, page__taxonomy.html) --
+  no content on this site sets categories, so this never currently renders.
+  NOTE: /categories/ has no page behind it right now (see _config.yml's
+  "Archives" section) -- add one back before using this for real.
+{% endcomment %}
 {% include base_path %}
 
 {% case site.category_archive.type %}

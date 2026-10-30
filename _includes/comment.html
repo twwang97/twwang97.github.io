@@ -1,3 +1,8 @@
+{% comment %}
+  Renders one comment (avatar, author, date, message) for the Staticman
+  comments flow. Called from comments.html -- dormant site-wide, since
+  site.comments.provider is unset in _config.yml.
+{% endcomment %}
 <article id="comment{{ include.index }}" class="js-comment comment">
   <div class="comment__avatar-wrapper">
     <img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=80">

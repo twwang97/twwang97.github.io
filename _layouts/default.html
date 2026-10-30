@@ -2,6 +2,13 @@
 layout: compress
 ---
 
+{% comment %}
+  The page shell: <html>/<head>/<body>, masthead, footer, and script tags.
+  Every other layout (single, archive, splash) sets `layout: default` and
+  supplies {{ content }}; this file is the one place that content gets
+  wrapped in. It in turn sets `layout: compress`, so the final HTML this
+  produces is whitespace-minified by _layouts/compress.html before going out.
+{% endcomment %}
 {% include base_path %}
 
 <!doctype html>

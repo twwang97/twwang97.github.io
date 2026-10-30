@@ -3,6 +3,9 @@
 # https://github.com/mushishi78/jekyll-group-by-array
 # © 2015 Max White <mushishi78@gmail.com>
 # MIT License
+#
+# Third-party utility, unmodified. Groups a collection by a field value
+# (e.g. group posts by category). Not currently used anywhere on this site.
 -->
 
 <!-- Initialize -->

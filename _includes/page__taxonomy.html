@@ -1,3 +1,9 @@
+{% comment %}
+  Shows "Tags:"/"Categories:" lines on a single-item page, but only if that
+  item actually has page.tags/page.categories set. No content on this site
+  sets either, so both branches -- and the tag-list.html/category-list.html
+  includes they'd call -- are currently inert.
+{% endcomment %}
 {% include base_path %}
 
 {% if site.tag_archive.type and page.tags[0] %}

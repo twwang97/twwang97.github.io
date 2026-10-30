@@ -18,6 +18,12 @@ Quick Reference
 Project Details
 ======
 
+{% comment %}
+  Lists every entry in the _controls collection as a card (title, excerpt, image).
+  To add a project: drop a new .md file into _controls/ AND add a row to the
+  "Quick Reference" table above -- unlike fpga/thesis/visions, this page shows
+  both a compact table and the full write-ups, so both need updating.
+{% endcomment %}
 {% for post in site.controls %}
-    {% include archive-single.html %}
+  {% include archive-single.html %}
 {% endfor %}

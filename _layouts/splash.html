@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% comment %}
+  Full-width "cover image" landing-page layout (no sidebar, no page title
+  rendered automatically). Not currently used by any page on this site --
+  kept as a theme option in case a hero-image homepage is wanted later.
+  To use it: set `layout: splash` in a page's front matter.
+{% endcomment %}
 {% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}

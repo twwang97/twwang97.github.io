@@ -1,3 +1,9 @@
+{% comment %}
+  Legacy "ga.js" Google Analytics snippet (retired by Google years ago).
+  Not selected by the current site.analytics.provider (false) -- kept only
+  as a theme option. Prefer a modern GA4 snippet via the "custom" provider
+  (analytics-providers/custom.html) if analytics are wanted later.
+{% endcomment %}
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.analytics.google.tracking_id }}']);

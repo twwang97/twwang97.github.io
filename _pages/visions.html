@@ -5,10 +5,11 @@ permalink: /visions/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
+{% comment %}
+  Lists every entry in the _visions collection as a card (title, excerpt, image).
+  To add a project: drop a new .md file into _visions/ -- no changes needed here.
+  Same pattern as fpga.html and thesis.html.
+{% endcomment %}
 {% for post in site.visions %}
   {% include archive-single.html %}
 {% endfor %}
-

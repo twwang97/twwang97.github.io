@@ -5,10 +5,11 @@ permalink: /fpga/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
+{% comment %}
+  Lists every entry in the _fpga collection as a card (title, excerpt, image).
+  To add a project: drop a new .md file into _fpga/ -- no changes needed here.
+  Card markup/fields come from _includes/archive-single.html.
+{% endcomment %}
 {% for post in site.fpga %}
   {% include archive-single.html %}
 {% endfor %}
-

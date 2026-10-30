@@ -4,6 +4,11 @@
 # http://jch.penibelst.de/
 # © 2014–2015 Anatol Broder
 # MIT License
+#
+# Third-party, unmodified. This is the root of the layout chain -- every
+# other layout sits on top of "default", which sits on top of this one, so
+# all final page output passes through here to strip whitespace. Left as a
+# single dense line intentionally; don't reformat, it's vendored code.
 ---
 
 {% capture _LINE_FEED %}

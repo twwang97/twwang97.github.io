@@ -1,3 +1,11 @@
+{% comment %}
+  Renders "Tags: ..." links on a single-item page, pointing at
+  site.tag_archive.path (/tags/, see _config.yml). Only runs if
+  page.tags[0] is set (checked by the caller, page__taxonomy.html) -- no
+  content on this site sets tags, so this never currently renders.
+  NOTE: /tags/ has no page behind it right now (see _config.yml's
+  "Archives" section) -- add one back before using this for real.
+{% endcomment %}
 {% include base_path %}
 
 {% case site.tag_archive.type %}

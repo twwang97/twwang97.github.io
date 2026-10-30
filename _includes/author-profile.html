@@ -1,3 +1,12 @@
+{% comment %}
+  Sidebar profile widget: avatar, name, bio, location, and a list of social
+  links -- shown on every page via `author_profile: true` (set as a default
+  for _pages and each collection in _config.yml). Only the fields actually
+  present in _config.yml's `author:` block render; everything else below is
+  simply skipped. (The `page.author` / site.data.authors[...] branch is a
+  multi-author override this site doesn't use -- no page sets `author:`, so
+  it always falls through to `site.author`.)
+{% endcomment %}
 {% include base_path %}
 
 {% if page.author and site.data.authors[page.author] %}

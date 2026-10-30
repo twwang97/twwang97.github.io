@@ -1,3 +1,8 @@
+{% comment %}
+  Renders a row of promo "cards" (image + title + excerpt + button) from a
+  page.feature_row front-matter array -- a common minimal-mistakes pattern
+  for homepage feature grids. Not currently used by any page on this site.
+{% endcomment %}
 {% include base_path %}
 
 {% if include.id %}

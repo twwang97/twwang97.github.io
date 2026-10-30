@@ -2,6 +2,13 @@
 layout: default
 ---
 
+{% comment %}
+  Layout for a single standalone piece of content: used by about.md, cv.md,
+  404.md, and every item in the _fpga / _thesis / _visions / _controls
+  collections (set as the default layout for both "pages" and each collection
+  type in _config.yml). Renders one title + one content body, with optional
+  date/venue/citation metadata if the page/post sets those fields.
+{% endcomment %}
 {% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}

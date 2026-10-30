@@ -1,3 +1,10 @@
+{% comment %}
+  Loads one analytics snippet based on site.analytics.provider (_config.yml).
+  Currently "false" (disabled) -- it previously defaulted to
+  "google-universal" (Universal Analytics), which Google shut down in 2023,
+  so that was injecting a dead script into every page. See _config.yml's
+  "Analytics" section for the full explanation.
+{% endcomment %}
 {% if site.analytics.provider and page.analytics != false %}
 
 {% case site.analytics.provider %}

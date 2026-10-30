@@ -1,3 +1,8 @@
+{% comment %}
+  Sets `base_path` to the site's full URL (or site.github.url as a GitHub
+  Pages fallback). Included at the top of most other includes/layouts so
+  internal links/images work the same in local dev and production.
+{% endcomment %}
 {% if site.url %}
   {% assign base_path = site.url | append: site.baseurl %}
 {% else %}

@@ -8,6 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+{% comment %}
+  Homepage hero. Structure, top to bottom:
+    1. page__lead  - one-line positioning statement (theme's large-lead paragraph style)
+    2. buttons     - Resume / Email / LinkedIn, styled via kramdown's {: .btn ...}
+                     attribute syntax (no custom CSS -- classes come from _sass/_buttons.scss)
+    3. core stack  - plain bold text, not real tag/pill components, kept deliberately simple
+    4. bio         - short background paragraph + pointer to /cv/ and the project sections
+{% endcomment %}
 <p class="page__lead">RTL design, board-level integration, and embedded Linux for camera and sensor systems — most recently at Vecow, building deterministic multi-camera streaming on a Xilinx Zynq UltraScale+ MPSoC.</p>
 
 [Download Resume](/files/resume_TsungWun.pdf){: .btn .btn--large}

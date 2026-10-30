@@ -1,3 +1,8 @@
+{% comment %}
+  Estimates reading time from word count ÷ site.words_per_minute. Only
+  called when post.read_time or page.read_time is true -- no content on
+  this site sets that flag, so this doesn't currently render anywhere.
+{% endcomment %}
 {% if post.read_time %}
   {% assign words = post.content | strip_html | number_of_words %}
 {% elsif page.read_time %}

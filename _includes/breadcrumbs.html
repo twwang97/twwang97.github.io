@@ -1,3 +1,8 @@
+{% comment %}
+  Renders a "Home / ... / Page Title" breadcrumb trail from the page's URL
+  segments. Only called from archive.html/single.html when site.breadcrumbs
+  is true -- it's false in _config.yml, so this is currently dormant.
+{% endcomment %}
 {% include base_path %}
 
 {% case site.categories.type %}

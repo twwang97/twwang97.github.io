@@ -1,3 +1,8 @@
+{% comment %}
+  Old-IE warning banner. Included unconditionally in default.html, but the
+  surrounding [if lt IE 9] conditional comment means modern browsers
+  (everything in practice) never render it -- this is a no-op for visitors.
+{% endcomment %}
 <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->

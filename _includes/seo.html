@@ -1,3 +1,19 @@
+{% comment %}
+  SEO meta tags: <title>, meta description, canonical URL, Open Graph
+  (og:*), Twitter Card, and JSON-LD structured data. seo_description and
+  seo_url are computed once up top with sensible fallback chains
+  (page-level value -> site-level value) and reused by the tags below.
+
+  FIX: og:description used to only render when a page had an explicit
+  `excerpt:`, ignoring the seo_description fallback chain already computed
+  above -- pages like the CV or FPGA listing (no excerpt set) shipped with
+  no description at all. og:image used to only come from a page's own
+  header image, with no fallback to site.og_image, so setting site.og_image
+  in _config.yml had no visible effect on Facebook/LinkedIn/Slack/email
+  link previews (only on Twitter Cards, via the separate twitter:image
+  tag). Both now fall back correctly -- see the og:description and
+  og:image blocks below.
+{% endcomment %}
 {% include base_path %}
 
 <!-- begin SEO -->

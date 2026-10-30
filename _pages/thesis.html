@@ -5,10 +5,11 @@ permalink: /thesis/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
+{% comment %}
+  Lists every entry in the _thesis collection as a card (title, excerpt, image).
+  To add a project: drop a new .md file into _thesis/ -- no changes needed here.
+  Same pattern as fpga.html and visions.html.
+{% endcomment %}
 {% for post in site.thesis %}
   {% include archive-single.html %}
 {% endfor %}
-
